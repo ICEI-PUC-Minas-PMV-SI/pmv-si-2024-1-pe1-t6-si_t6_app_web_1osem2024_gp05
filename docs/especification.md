@@ -1,9 +1,6 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
-
+A falta de tecnologia no agronegócio limita a capacidade dos agricultores de melhorar sua produtividade, eficiência e sustentabilidade, dificulta a capacidade de competir em um mercado cada vez mais globalizado e tecnologicamente avançado. O objetivo deste projeto é desenvolver um aplicativo móvel para facilitar e melhorar a gestão de fazendas e atividades agrícolas em áreas rurais. O aplicativo visa fornecer aos agricultores uma ferramenta intuitiva e abrangente para, gerenciar recursos, acessar informações relevantes sobre cultivo e mercado, além de promover a comunicação e a colaboração entre os agricultores.
 Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
 
 ## Personas
