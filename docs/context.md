@@ -20,14 +20,11 @@ Aqui você deve descrever os objetivos do trabalho indicando que o objetivo gera
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
 A ausência de tecnologia no setor agrícola frequentemente resulta em uma diminuição da eficiência nas operações. Métodos de manejo obsoletos, a falta de acesso a dados precisos sobre clima e solo, e a falta de técnicas avançadas de cultivo podem levar a uma diminuição na quantidade de safras e a preocupações com a segurança alimentar. Além disso, processos manuais e práticas tradicionais podem ser demorados e propensos a erros. A falta de mecanização e automação também resulta em desperdício de recursos, tempo e mão de obra. A implementação de tecnologia pode significativamente aprimorar a eficiência operacional, reduzindo custos e aumentando a produção.
 > **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
@@ -35,8 +32,3 @@ Descreva quem serão as pessoas que usarão a sua aplicação indicando os difer
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
