@@ -5,19 +5,10 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Marcelo é dono de uma plantação agrícola de uma empresa de pequeno porte que se dedica ao cultivo de soja em uma região consolidada Ele precisa lidar com uma grande quantidade de dados e informações relacionadas à gestão da produção agrícola, incluindo dados sobre o balanço de entradas e saídas de insumos, e combustível gastos. Por isso ele busca uma solução tecnológica que possa ajudá-lo a otimizar o planejamento e a gestão da produção agrícola da empresa, proporcionando maior eficiência e controle sobre as operações.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Viviane é gerente de produção em uma empresa de médio porte que se dedica ao cultivo de café em uma região montanhosa com clima favorável para a plantação ela possui uma sólida formação em administração rural e agricultura, adquirida ao longo de décadas de experiência no setor cafeicultor. Viviane é responsável por coordenar todas as operações relacionadas ao cultivo de café na empresa, como: o planejamento de insumos, a gestão da colheita e o controle de qualidade dos grãos. No entanto Viviane enfrenta o desafio de e equilibrar a oferta e demanda de insumos agrícolas, garantindo que a empresa tenha os recursos necessários para manter a produtividade da plantação de café.
 
 ## Histórias de Usuários
 
