@@ -1,20 +1,13 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+No Brasil, o agronegócio exerce um papel crucial para a economia do pais não unicamente na produção de alimentos, mas ele se estende também, para o avanço do crescimento econômico, na geração de empregos e no desenvolvimento social, sendo responsável por aproximadamente 26,6% do Produto Interno Bruto (Cepea,2020.) Destacando sua importância vital para a balança comercial do país. 
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+Além de atender o mercado interno, o agro brasileiro também desempenha um papel importantíssimo como fornecedor global, calcula-se que os produtores brasileiros fornecem alimentos para cerca de 800 milhões de pessoas, correspondendo a aproximadamente 10% da população mundial (Embrapa,2021). No entanto, para continuar crescendo e ser o primeiro em produtividade, o país ainda precisa enfrentar alguns desafios e um deles é o na ausência de adoção tecnológica. A falta de conectividade em muitas regiões agrícolas faz com que exista uma defasagem no agronegócio pois a ausência da mesma limita o acesso dos agricultores a informações de mercado como: previsões climáticas, preços, demanda e tendências do mercado que são cruciais para o desenvolvimento do agro.
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+A falta de tecnologia no agronegócio muitas vezes leva a uma baixa eficiência operacional. Processos manuais e métodos tradicionais podem ser demorados e sujeitos a erros. A falta de mecanização e automação resulta em desperdício de recursos, tempo e mão de obra. A tecnologia, pode melhorar significativamente a eficiência operacional, reduzindo custos e aumentando a produção
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -32,12 +25,7 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
+A ausência de tecnologia no setor agrícola frequentemente resulta em uma diminuição da eficiência nas operações. Métodos de manejo obsoletos, a falta de acesso a dados precisos sobre clima e solo, e a falta de técnicas avançadas de cultivo podem levar a uma diminuição na quantidade de safras e a preocupações com a segurança alimentar. Além disso, processos manuais e práticas tradicionais podem ser demorados e propensos a erros. A falta de mecanização e automação também resulta em desperdício de recursos, tempo e mão de obra. A implementação de tecnologia pode significativamente aprimorar a eficiência operacional, reduzindo custos e aumentando a produção.
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
