@@ -4,10 +4,11 @@ A falta de tecnologia no agronegócio limita a capacidade dos agricultores de me
 Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
 
 ## Personas
-
+1°Persona
 Marcelo é dono de uma plantação agrícola de uma empresa de pequeno porte que se dedica ao cultivo de soja em uma região consolidada Ele precisa lidar com uma grande quantidade de dados e informações relacionadas à gestão da produção agrícola, incluindo dados sobre o balanço de entradas e saídas de insumos, e combustível gastos. Por isso ele busca uma solução tecnológica que possa ajudá-lo a otimizar o planejamento e a gestão da produção agrícola da empresa, proporcionando maior eficiência e controle sobre as operações.
 
-
+2° 
+Persona
 Viviane é gerente de produção em uma empresa de médio porte que se dedica ao cultivo de café em uma região montanhosa com clima favorável para a plantação ela possui uma sólida formação em administração rural e agricultura, adquirida ao longo de décadas de experiência no setor cafeicultor. Viviane é responsável por coordenar todas as operações relacionadas ao cultivo de café na empresa, como: o planejamento de insumos, a gestão da colheita e o controle de qualidade dos grãos. No entanto Viviane enfrenta o desafio de e equilibrar a oferta e demanda de insumos agrícolas, garantindo que a empresa tenha os recursos necessários para manter a produtividade da plantação de café.
 
 ## Histórias de Usuários
