@@ -73,23 +73,9 @@ Os Wireframes foram definidos da seguinte forma:
 
 ![controle fazenda](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t6-si_t6_app_web_1osem2024_gp05/blob/main/docs/img/CONTROLE%20DA%20FAZENDA.png)
 
+### ECONOMIA
 
+  Essa tela, será um espécie de feed de notícias, com informações e notícias relacionadas com o interesse do usuário, que deve mostrar informações pertinentes e relevantes para o seu trabalho.
 
+  ![economia](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t6-si_t6_app_web_1osem2024_gp05/blob/main/docs/img/ECONOMIA.png)
 
-
-
-### Exemplo
-
-A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
-
-![Exemplo de Wireframe](img/wireframe-example.png)
-
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
