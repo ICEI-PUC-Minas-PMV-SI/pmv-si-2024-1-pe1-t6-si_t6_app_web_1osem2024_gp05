@@ -23,23 +23,21 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
-
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+|RF-001| A aplicação deve permitir que o usuário publique no seu feed | ALTA |  
+|RF-002| A aplicação deve permitir a vizualização do feed de notícias atualizado   | ALTA | 
+|RF-003| A aplicação deve permitir a inserção dos dados financeiros da fazenda, como entradas e saídas de capital  | ALTA |
+|RF-004| A aplicação deve permitir inserção dos dados de insumos, resultados de colheita, manutenção dos veículos | ALTA |
+|RF-005| A aplicação deve fornecer informações climáticas atualizadas para a região do usuário | MEDIA |
+|RF-006| A aplicação deve fornecer informações economicas atualizadas para o nicho explorado pelo usuário | MEDIA |
+|RF-007| A aplicação deve emitir retórios informativos de resultados do controle da fazenda | MEDIA |
 
 
 ### Requisitos não Funcionais
@@ -48,21 +46,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser responsiva | MÉDIA | 
 |RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| A aplicação deve estar sempre disponível para fornecer informações atualizadas | ALTA |
+|RNF-004| A aplicação deve ser segura e confiável, para que os usuários confiem em colocar informções sensíveis | ALTA |
+|RNF-005| O sistema deve atender os requisitos de compatibilidade com o maior número de dispositivos, para que todos possam ter acesso | MEDIA |
+|RNF-006| O sistema deve ser robusto e escalável, para que todos os usuários consigam utilizar simultaneamente | ALTA |
+|RNF-007| A aplicação deve apresentar uma interface amigavel, intuitiva, e de fácil aprendizado | MEDIA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -72,10 +61,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|03| Por ser um sistema Online, deve ser utilizado sempre com acesso a internet|
+|04| Como utiliza localização, o sistema precisa de acesso ao GPS do dispositivo|
