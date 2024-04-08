@@ -18,10 +18,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Empresario   | Registrar balanço de entrade e saidas            |Cumprimento Fiscal e legal              |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Empresario   | Registrar balanço de entrade e saidas            |Cumprimento fiscal e legal              
+|Empresario   | Dados meteorológicos           | Mitigar impactos da condiçoes climaticos             
+|Empresario        | Ter controle de combustivel gastos                | Redução de custos  |
+|Empresario | Analisar a valorizaçãoe desvalorização do produto | Investimentos e estratégias de gestão.
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 
 ## Requisitos
