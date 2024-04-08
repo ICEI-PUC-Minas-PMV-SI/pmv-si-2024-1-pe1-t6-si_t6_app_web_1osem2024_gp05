@@ -9,16 +9,16 @@ Além de atender o mercado interno, o agro brasileiro também desempenha um pape
 
 A falta de tecnologia no agronegócio muitas vezes leva a uma baixa eficiência operacional. Processos manuais e métodos tradicionais podem ser demorados e sujeitos a erros. A falta de mecanização e automação resulta em desperdício de recursos, tempo e mão de obra. A tecnologia, pode melhorar significativamente a eficiência operacional, reduzindo custos e aumentando a produção
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Fornecer aos agricultores e profissionais do setor ferramentas e recursos que os auxiliem na gestão eficiente de suas operações agrícolas de forma descomplicada e rapida.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+-Disseminar melhores práticas na área do agronegócio
+ -Fornece uma ferramenta de comparação, nivelamento, e métricas específicas, a fim de entender o que funciona melhor naquele ambiente
+-Ajudar no processo de preparação e projeção de resultados de colheitas futuras, baseado em um banco de dados de colheitas passadas
+
  
 
 ## Justificativa
