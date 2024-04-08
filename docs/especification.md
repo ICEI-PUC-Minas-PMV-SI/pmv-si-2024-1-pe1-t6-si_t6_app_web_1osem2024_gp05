@@ -21,7 +21,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Empresario   | Registrar balanço de entrade e saidas            |Cumprimento fiscal e legal              
 |Empresario   | Dados meteorológicos           | Mitigar impactos da condiçoes climaticos             
 |Empresario        | Ter controle de combustivel gastos                | Redução de custos  |
-|Empresario | Analisar a valorizaçãoe desvalorização do produto | Investimentos e estratégias de gestão.
+|Empresario | Analisar a valorização e desvalorização do produto | Investimentos e estratégias de gestão.
 
 
 
