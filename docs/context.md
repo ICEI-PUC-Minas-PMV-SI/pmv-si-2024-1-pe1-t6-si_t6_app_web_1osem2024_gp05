@@ -7,7 +7,7 @@ Além de atender o mercado interno, o agro brasileiro também desempenha um pape
 
 ## Problema
 
-A falta de tecnologia no agronegócio muitas vezes leva a uma baixa eficiência operacional. Processos manuais e métodos tradicionais podem ser demorados e sujeitos a erros. A falta de mecanização e automação resulta em desperdício de recursos, tempo e mão de obra. A tecnologia, pode melhorar significativamente a eficiência operacional, reduzindo custos e aumentando a produção
+A falta de tecnologia no agronegócio muitas vezes leva a uma baixa eficiência operacional. Processos manuais e métodos tradicionais podem ser demorados e sujeitos a erros. A falta de mecanização e automação resulta em desperdício de recursos, tempo e mão de obra. A tecnologia, pode melhorar significativamente a eficiência operacional, reduzindo custos e aumentando a produção.
 
 
 
