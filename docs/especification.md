@@ -6,7 +6,7 @@ A falta de tecnologia no agronegócio limita a capacidade dos agricultores de me
 ## Personas
 1°Persona
 
-Marcelo é dono de uma plantação agrícola de uma empresa de pequeno porte que se dedica ao cultivo de soja em uma região consolidada Ele precisa lidar com uma grande quantidade de dados e informações relacionadas à gestão da produção agrícola, incluindo dados sobre o balanço de entradas e saídas de insumos, e combustível gastos. Por isso ele busca uma solução tecnológica que possa ajudá-lo a otimizar o planejamento e a gestão da produção agrícola da empresa, proporcionando maior eficiência e controle sobre as operações.
+Marcelo é dono de uma plantação agrícola de uma empresa de pequeno porte que se dedica ao cultivo de soja em uma região consolidada ele precisa lidar com uma grande quantidade de dados e informações relacionadas à gestão da produção agrícola, incluindo dados sobre o balanço de entradas e saídas de insumos, e combustível gastos. Por isso ele busca uma solução tecnológica que possa ajudá-lo a otimizar o planejamento e a gestão da produção agrícola da empresa, proporcionando maior eficiência e controle sobre as operações.
 
 2° Persona
 
@@ -19,8 +19,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Empresario   | Registrar balanço de entrade e saidas            |Cumprimento Fiscal e legal              |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
+|Empresario        | Ter controle de combustivel gastos                | Redução de custos  |
+Empresario 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 > **Links Úteis**:
