@@ -28,7 +28,5 @@ A ausência de tecnologia no setor agrícola frequentemente resulta em uma dimin
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+O público que aplicativo deseja alcançar são agricultores familiares, cujo detém de conhecimentos tradicionais transmitido de geração em geração, e empresas de pequeno e médio porte com pouco recursos de automatização, encontrados por todo Brasil.
 
