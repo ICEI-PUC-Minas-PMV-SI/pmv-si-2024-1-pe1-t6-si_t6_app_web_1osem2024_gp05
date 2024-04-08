@@ -16,7 +16,9 @@ A falta de tecnologia no agronegócio muitas vezes leva a uma baixa eficiência 
 Fornecer aos agricultores e profissionais do setor ferramentas e recursos que os auxiliem na gestão eficiente de suas operações agrícolas de forma descomplicada e rapida.
 
 -Disseminar melhores práticas na área do agronegócio
+ 
  -Fornece uma ferramenta de comparação, nivelamento, e métricas específicas, a fim de entender o que funciona melhor naquele ambiente
+
 -Ajudar no processo de preparação e projeção de resultados de colheitas futuras, baseado em um banco de dados de colheitas passadas
 
  
