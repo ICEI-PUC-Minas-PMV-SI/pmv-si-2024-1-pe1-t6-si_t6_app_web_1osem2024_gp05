@@ -1,0 +1,159 @@
+/* base do template*/
+
+.corpo {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    background-color: rgb(150, 103, 45);
+}
+
+.container-fluid {
+    background: linear-gradient(0deg, #827d15, #DABB1C);
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+}
+
+.feed {
+    border-radius: 50px 0px 50px 0px;
+    background-color: rgb(209, 198, 184);
+}
+
+.tam_vertical{
+    height: 100vh;
+}
+
+
+
+/*  MENU PRINCIPAL  */
+
+    /* PERFIL */
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15rem;
+}
+
+.foto_perfil{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 1rem;
+    background-color: azure;
+}
+
+.user_name{
+    width: 8rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    background-color: azure;
+    text-align: center;
+}
+
+.nome_fazenda{
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    background-color: azure;
+    text-align: center;
+    font-size: small;
+}
+
+
+/*  botões controle fazenda / economia / config  */ 
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20rem;
+}
+
+.btn_control{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: azure;
+}
+
+.btn_economic{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: azure;
+}
+
+.btn_config{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: azure;
+}
+
+
+/*  MENU LATERAL DIREITA  */ 
+
+.menu_clima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 20rem;
+}
+
+.condicao_tempo{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: azure;
+}
+
+.temp{
+    width: 4rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    background-color: azure;
+}
+
+.btn_open{
+    position: absolute;
+    right: 6.5%;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 3rem;
+    border: 7px solid  #DABB1C;
+    background-color: #ffffff;
+}
+
+
+/*  FEED CENTRAL  */ 
+
+
+.feed_noticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 2rem;
+    height: 20rem;
+}
+
+.noticia {
+    background-color: rgb(230, 230, 230);
+    width: 90%;
+    height: 80%;
+    border-radius: 1rem;
+}
+
+.user {
+    background-color: rgb(168, 168, 168);
+    width: 630px;
+    height: 5rem;
+    border-radius: 1rem;
+}
