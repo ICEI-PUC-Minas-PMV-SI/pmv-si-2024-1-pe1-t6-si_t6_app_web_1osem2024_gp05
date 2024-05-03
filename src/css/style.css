@@ -1,6 +1,8 @@
+
 /* base do template */
 
 .corpo {
+    font-family: 'Roboto';
     height: 100vh;
     width: 100vw;
     padding: 0;
@@ -35,20 +37,25 @@
     align-items: center;
     justify-content: space-evenly;
     height: 15rem;
+    margin-top: 3rem;
+    color: #67640C;
 }
 
 .foto_perfil{
     width: 6rem;
     height: 6rem;
     border-radius: 1rem;
-    background-color: azure;
+    background: url("../img/icons/profile.png");
+    background-size: contain;
+    border: none;
+    background-repeat: no-repeat;
 }
 
 .user_name{
     width: 8rem;
     height: 1.5rem;
     border-radius: 1rem;
-    background-color: azure;
+    background-color: #DCCE76;
     text-align: center;
 }
 
@@ -56,7 +63,7 @@
     width: 8rem;
     height: 2.5rem;
     border-radius: 1rem;
-    background-color: azure;
+    background-color: #DCCE76;
     text-align: center;
     font-size: small;
 }
@@ -71,6 +78,18 @@
     align-items: center;
     justify-content: space-evenly;
     height: 20rem;
+    margin-top: 3rem;
+}
+
+.btn_home{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: azure;
+    background: url("../img/icons/home.png");
+    background-size: contain;
+    border: none;
+    background-repeat: no-repeat;
 }
 
 .btn_control{
@@ -78,13 +97,22 @@
     height: 4rem;
     border-radius: 1rem;
     background-color: azure;
+    background: url("../img/icons/control.png");
+    background-size: contain;
+    border: none;
+    background-repeat: no-repeat;
 }
+
 
 .btn_economic{
     width: 4rem;
     height: 4rem;
     border-radius: 1rem;
     background-color: azure;
+    background: url("../img/icons/economic.png");
+    background-size: contain;
+    border: none;
+    background-repeat: no-repeat;
 }
 
 .btn_config{
@@ -92,6 +120,10 @@
     height: 4rem;
     border-radius: 1rem;
     background-color: azure;
+    background: url("../img/icons/config.png");
+    background-size: contain;
+    border: none;
+    background-repeat: no-repeat;
 }
 
 
@@ -111,13 +143,18 @@
     height: 4rem;
     border-radius: 1rem;
     background-color: azure;
+    background: url("../img/icons/clima.png");
+    background-size: contain;
+    border: none;
 }
+
 
 .temp{
     width: 4rem;
     height: 1.5rem;
     border-radius: 1rem;
     background-color: azure;
+    text-align: center;
 }
 
 .btn_open{
@@ -125,14 +162,18 @@
     right: 6.5%;
     width: 4rem;
     height: 4rem;
-    border-radius: 3rem;
-    border: 7px solid  #DABB1C;
-    background-color: #ffffff;
+    background: url(../img/icons/seta_abre.png);
+    background-size: contain;
+    border: none;
 }
 
 
 /*  FEED CENTRAL  */ 
 
+
+.feed{
+    padding-top: 5rem;
+}
 
 .feed_noticias {
     display: flex;
@@ -149,11 +190,37 @@
     width: 90%;
     height: 80%;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .user {
     background-color: rgb(168, 168, 168);
-    width: 630px;
-    height: 5rem;
+    width: 100%;
+    height: 4rem;
     border-radius: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #4D4D4D;
+    font-weight: 700;
+    font-size: large;
+}
+
+.ft_perfil{
+    background: url(../img/icons/user_feed.png);
+    width: 3rem;
+    height: 3rem;
+    margin: 0 1rem 0 .5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nome_perfil{
+    width: 49rem;
+}
+
+.post {
+    padding: 1rem;
+    font-size: large;
 }
