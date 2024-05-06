@@ -25,15 +25,26 @@
 
 .conteudo{
     border: none;
-    width: 25rem;
-    height: 19rem;
-    margin: 1rem;
+    width: 18.5rem;
+    height: 15rem;
+    margin: 0.5rem;
     border-radius: 1.5rem;
     background-color: rgba(250, 235, 215, 0.47);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.container .on {
+    width: 95%;
+    height: 22rem;
+}
+
+.conteiner .on, .icon {
+    width: 4rem !important;
+    height: 4rem !important;
 }
 
 .conteudo_1 .icon {
@@ -86,4 +97,65 @@
     height: 1.8rem;
     width: 90%;
     border-radius: 10px;
+}
+
+.conteudo_titulo {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.conteudo_titulo .periodo {
+    margin-left: 25rem;
+    font-size: large;
+}
+
+.conteudo_titulo .periodo .data {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color:  rgba(250, 235, 215, 0.47);
+    font-size: 20px;
+}
+
+.dados_on {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.esquerda, .direita {
+    width: 45%;
+    height: 100%;
+}
+
+
+.direita .dados, .esquerda .dados {
+    background-color: rgba(250, 235, 215, 0.47);
+    height: 1.8rem;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+}
+
+.esquerda .dados_grafico {
+    background-color: rgba(250, 235, 215, 0.47);
+    height: 7rem;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+    padding: 0.8rem 0 0.2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 6rem;
+}
+
+.bloco {
+    width: 4rem;
+    height: 80%;
+    background-color: #827d15;
 }
