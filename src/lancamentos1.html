@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FARM.LY - CONTROLE DA FAZENDA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lançamentos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="corpo">
+        <div class="container-fluid">
+
+            <div class="row g-0">
+                <!-- MENU LATERAL ESQUERDA -->
+                <div class="col-2 tam_vertical">
+                    <nav class="menu">
+                        <div class="profile">
+                            <button class="foto_perfil">
+                            </button>
+                            <span class="user_name">
+                                tião
+                            </span>
+                            <span class="nome_fazenda">
+                                <p>FAZENDA ESMERALDA</p>
+                            </span>
+                        </div>
+                        <!-- BOTOES CONFIGURAÇÃO -->
+                        <div class="buttons">
+                            <button class="btn_home">
+
+                            </button>
+                            <button class="btn_control">
+
+                            </button>
+                            <button class="btn_economic">
+
+                            </button>
+                            <button class="btn_config">
+
+                            </button>
+                        </div>
+
+
+                    </nav>
+
+                </div>
+
+                <!-- CONTROLE FAZENDA -->
+                <div class="col-8 controle_fazenda_1 tam_vertical">
+                    <div clas="lançamentos ">
+                        <div class="top-bar">
+                            <h1>ADICIONAR MOVIMENTO</h1>
+                        </div>
+                        <div class="main-content">
+                            <div>
+                                <h2>Tipo de movimento </h2>
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false"> Selecione </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">VENDA</a></li>
+                                        <li><a class="dropdown-item" href="#">COMPRA</a></li>
+                                        <li><a class="dropdown-item" href="#">COMPRA DE SERVIÇOS</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+                            <div>
+                                <h2>Nome do Produto</h2>
+                                <input type="text" value="Nome do Produto">
+                            </div>
+                            <div>
+                                <div class="info">
+                                    <h2>Informaçoes</h2>
+                                    <div class="informacoes">
+                                        <input type="number" value="Valor" placeholder="Valor">
+                                        <input type="number" value="Quantidade" placeholder="Quantidade"
+                                            id="quantidade">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="img-lan">
+                                    <h2>Imagem</h2>
+                                    <input type="button" value="Adicionar imagem">
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <button class="btn_lan">SALVAR LANÇAMENTO</button>
+                                <button class="btn_lan">CANCELAR LANÇAMENTO</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-1 comp tam_vertical">
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <!-- MENU LATERAL DIREITA (CLIMA) -->
+                <div class="col-1 tam_vertical">
+                    <span class="menu_clima">
+                        <button class="condicao_tempo">
+
+                        </button>
+                        <span class="temp">
+                            29°
+                        </span>
+
+                    </span>
+
+                </div>
+
+                <button class="btn_open">
+
+                </button>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

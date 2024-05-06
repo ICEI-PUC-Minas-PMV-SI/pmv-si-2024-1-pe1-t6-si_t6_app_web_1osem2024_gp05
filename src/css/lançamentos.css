@@ -1,0 +1,98 @@
+.comp {
+    background-color: rgb(240, 248, 255);
+}
+
+.lançamentos {
+    border-radius: 2rem;
+}
+
+.lançamentos h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.container {
+    width: 90%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+
+}
+
+.conteudo {
+    border: none;
+    width: 25rem;
+    height: 18rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+    background-color: rgba(250, 235, 215, 0.47);
+}
+
+/*  Lançamentos  */
+
+.main-content {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 20px;
+
+}
+
+.informacoes {
+    margin: 10px 10px 10px 0px;
+    display: flex;
+
+
+}
+
+#quantidade {
+
+    margin-left: 45px;
+
+}
+
+.informacoes_titulo {
+
+    display: block;
+
+}
+
+.lançamentos {
+    padding-left: 20px;
+    background-color: white;
+    margin: 5px;
+
+
+}
+
+.btn_lan {
+    padding: 10px 10px;
+    margin: 30px 20px 20px 0px;
+    width: 18rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: #DCCE76;
+    background-size: contain;
+    border: none;
+    background-repeat: no-repeat;
+
+}
+
+.img-lan input {
+
+    padding: 10px 10px;
+    margin: 30px 20px 20px 0px;
+    width: 250px;
+    height: 50px;
+    border-radius: 1rem;
+    background-color: #DCCE76;
+    background-size: contain;
+    border: none;
+    background-repeat: no-repeat;
+
+}
