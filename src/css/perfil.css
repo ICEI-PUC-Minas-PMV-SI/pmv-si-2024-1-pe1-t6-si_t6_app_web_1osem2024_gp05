@@ -1,0 +1,406 @@
+a {
+    text-decoration:none;
+}
+
+.icon {
+    width: 140px;
+    height: 140px;
+    background-image:url(img/perfilicon.jpeg);
+    border-radius: 100px;
+    background-size: cover;
+    margin-left: 120px;
+    margin-top: -100px;
+}
+
+.capa {
+    width: 852px;
+    height: 218px;
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: -45px;
+    margin-left: 80px;
+}
+
+.nome-faz {
+    color: #4D4D4D;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 3px 5px 3px 4px;
+    width: 248px;
+    height: 35px;
+    background-color: #DDD;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    margin-left: 660px;
+    margin-top: -30px;
+}
+
+.editar-perfil {
+    width: 117px;
+    color: #4D4D4D;
+    background: #DDD;
+    padding: 3px 7px 10px 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 538px;
+    margin-top: -30px;
+    text-decoration: none;
+}
+
+
+.seguidores {
+    color: #4D4D4D;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 2px 5px 5px;
+    font-size: 18px;
+    width: 248px;
+    height: 35px;
+    background-color: #DDD;
+    font-style:unset;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    margin-left: 660px;
+    margin-top: 5px;
+}
+
+.nome-user {
+    color: #4D4D4D;
+    float:left;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    width: 203px;
+    height: 2px;
+    margin-left: 115px;
+    margin-top: -45px;
+}
+
+.user-user {
+    color: #4D4D4D;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    width: 70px;
+    height: 17px;
+    margin-left: 115px;
+    margin-top: 8px;
+
+}
+
+.bio {
+    color: #4D4D4D;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    width: 467px;
+    height: 30px;
+    margin-left: 115px;
+    margin-top: 35px;
+
+}
+
+.borda {
+    width: 692px;
+    height: 2px;
+    background-color: #acaaaa;
+    border-radius: 5px;
+    margin-left: 289px;
+    margin-top: 15px;
+}
+
+.borda-em-pe-1 {
+    width: 2px;
+    height: 969px;
+    background-color: #acaaaa;
+    border-radius: 5px;
+    margin-left: 1073px;
+    margin-top: -405px;
+}
+
+.imagem1 {
+    width: 275px;
+    height: 275px;
+    background-color: #DDD;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: -520px;
+    float: inline;
+    position: relative;
+
+}
+
+.imagem2 {
+    width: 275px;
+    height: 275px;
+    background-color: #DDD;
+    background-size: cover;
+    margin-left: 385px;
+    margin-top: -275px;
+    float: inline;
+    position: relative;
+
+}
+
+.imagem3 {
+    width: 275px;
+    height: 275px;
+    background-color: #DDD;
+    background-size: cover;
+    margin-left: 670px;
+    margin-top: -275px;
+    float: inline;
+    position: relative;
+
+}
+
+.imagem4 {
+    width: 275px;
+    height: 275px;
+    background-color: #DDD;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 8px;
+    float: inline;
+    position: relative;
+
+}
+
+.imagem5 {
+    width: 275px;
+    height: 275px;
+    background-color: #DDD;
+    background-size: cover;
+    margin-left: 385px;
+    margin-top: -275px;
+    float: inline;
+    position: relative;
+
+}
+
+.imagem6 {
+    width: 275px;
+    height: 275px;
+    background-color: #DDD;
+    background-size: cover;
+    margin-left: 670px;
+    margin-top: -275px;
+    float: inline;
+    position: relative;
+
+}
+
+.mais {
+    width: 120px;
+    height: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4D4D4D;
+    font-size: 14px;
+    position: relative;
+    float: inline;
+    margin-left: 1091px;
+    margin-top: 40px;
+
+}
+
+.seguindo {
+    width: 77px;
+    height: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #4D4D4D;
+    position: relative;
+    float: inline;
+    margin-top: -985px;
+    margin-left: 1165px;
+    border-radius: 10px;
+}
+
+.img-1 {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/seg-img1.jpg);
+    background-size: cover;
+    position: relative;
+    float: inline;
+    margin-top: 45px;
+    margin-left: 1091px;
+    border-radius: 50px;
+}
+
+.nome-1 {
+    width: 90px;
+    height: 18px;
+    color: #4D4D4D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    float: inline;
+    margin-left: 1145px;
+    margin-top: -48px;
+}
+
+.user-1 {
+    width: 90px;
+    color: #4D4D4D;
+    height: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    float: inline;
+    margin-left: 1145px;
+    margin-top: 1px;
+}
+
+.img-2 {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/seg-img2.jpeg);
+    background-size: cover;
+    position: relative;
+    float: inline;
+    margin-top: 45px;
+    margin-left: 1091px;
+    border-radius: 50px;
+}
+
+.nome-2 {
+    width: 120px;
+    height: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    position: relative;
+    color: #4D4D4D;
+    float: inline;
+    margin-left: 1145px;
+    margin-top: -48px;
+}
+
+.user-2 {
+    width: 90px;
+    height: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    position: relative;
+    float: inline;
+    color: #4D4D4D;
+    margin-left: 1145px;
+    margin-top: -2px;
+}
+
+.img-3 {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/seg-img3.jpg);
+    background-size: cover;
+    position: relative;
+    float: inline;
+    margin-top: 45px;
+    margin-left: 1091px;
+    border-radius: 50px;
+}
+
+.nome-3 {
+    width: 90px;
+    height: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    position: relative;
+    color: #4D4D4D;
+    float: inline;
+    margin-left: 1145px;
+    margin-top: -48px;
+}
+
+.user-3 {
+    width: 90px;
+    height: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    color: #4D4D4D;
+    position: relative;
+    float: inline;
+    margin-left: 1145px;
+    margin-top: -2px;
+}
+
+.img-4 {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/seg-img4.jpg);
+    background-size: cover;
+    position: relative;
+    float: inline;
+    margin-top: 45px;
+    margin-left: 1091px;
+    border-radius: 50px;
+}
+
+.nome-4 {
+    width: 120px;
+    height: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    position: relative;
+    color: #4D4D4D;
+    float: inline;
+    margin-left: 1145px;
+    margin-top: -48px;
+}
+
+.user-4 {
+    width: 120px;
+    height: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    position: relative;
+    color: #4D4D4D;
+    float: inline;
+    margin-left: 1145px;
+    margin-top: -2px;
+}
+
+.linha1{
+
+    width: 178px;
+    height: 2px;
+    font-size: 15px;
+    background-color: #cacaca;
+    margin-top: 27px;
+    margin-left: 1112px;
+    border-radius: 2px;
+
+}
+
+.mes{
+    width: 70px;
+    height: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4D4D4D;
+    margin-left: 1095px;
+    margin-top: 17px;
+}
+
+.descrição{
+    width: 210px;
+    height: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4D4D4D;
+    font-size: 11px;
+    margin-left: 1095px;
+    margin-top: 17px;
+}
+
+.mmais1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4D4D4D;
+    width: 120px;
+    height: 17px;
+    font-size: 13px;
+    margin-left: 1163px;
+    margin-top: 25px;
+}
