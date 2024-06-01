@@ -1,169 +1,159 @@
 
 .fundo{
-    width: 1022px;
-    height: 899px;
+    width: 70vw;
+    height: 100vh;
     background-color: #ddd;
     border-radius: 25px;
-    margin-top: -80px;
-    margin-left: 0px;
 
 }
 
 .sair{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#8a8888;
-    text-align: center;
-    font-size: 25px;
-    width: 132px;
-    height:35px;
+    font-size: 18px;
+    width: 10vw;
+    height: 5vh;
     border-radius: 10px;
     background-color: #c4c4c4;
-    margin-left: 50px;
-    margin-top: -35px;
+    margin-left: 6vh;
+    margin-top: -2vw;
 }
 
 .titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    font-size: 20px;
-    width: 132px;
-    height: 35px;
+    font-size: 18px;
+    width: 10vw;
+    height: 5vh;
     background-color:#CACACA;
     border-radius: 10px;
-    margin-top: -880px;
-    margin-left: 480px;
-    padding-top: 2px;
-    float: inline;
+    margin-top: -38rem;
+    margin-left: 64vh;
 }
 
 .imagem{
 
-    width: 505px;
-    height: 131px;
-    background-image: url(img/capa.jpg);
+    width: 65vh;
+    height: 5vw;
+    background-color: #4d4d4d;
     background-size: cover;
     border-radius: 10px;
-    margin-top: -185px;
-    margin-left: 80px;
-    display: block;
+    margin-top: -6rem;
+    margin-left: 12vh;
+    display: flex;
     
 }
 
         
 .icone{
-    width: 130px;
-    height: 130px;
-    background-image: url(img/perfilicon.jpeg);
-    background-size: contain;
+    width: 5vw;
+    height: 5vw;
+    background-color: #4d4d4d;
     border-radius: 100px;
-    margin-top: -141px;
-    margin-left: 755px;
-    display: block;
+    margin-top: -4.5rem;
+    margin-left: 118vh;
 }
 
 
 .fundo1{
-    width: 942px;
-    height: 227px;
+    width: 64vw;
+    height: 20vh;
     background-color:#D3d3d3;
     border-radius: 10px;
-    margin-top: 60px;
-    margin-left: 40px;
-    float: inline;
+    margin-top: 35px;
+    margin-left: 6.5vh;
+
 }
 
 .alt-img-banner{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
     text-align: center;
-    width: 172px;
-    height: 27px;
+    width: 10vw;
     background-color: #63b9c9;
     border-radius: 10px;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: 229px;
-    float: inline;
 }
 
 .alt-img-icone{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
     text-align: center;
-    width: 172px;
-    height: 27px;
+    width: 10vw;
     background-color: #63b9c9;
     border-radius: 10px;
-    margin-top: -27px;
-    margin-left: 734px;
-    float: inline;
+    margin-top: -25px;
+    margin-left: 715px;
 }
 
 .div1h{
-    width: 5px;
-    height: 178px;
-    background-color: rgba(134, 134, 133, 0.5);
+    width: 0.4vw;
+    height: 18vh;
+    background-color: rgba(134, 134, 133, 0.288);
     border-radius: 24px;
-    margin-left: 659px;
-    margin-top: -200px;
+    margin-left: 615px;
+    margin-top: -120px;
 }
 
 .nome{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #4d4d4d;
-    font-size: 20px;
-    width: 60px;
-    height: 23px;
+    font-size: 18px;
     border-radius: 10px;
-    margin-top: 40px;
-    margin-left: 55px;
+    margin-top: 1rem;
+    margin-left: 3rem;
     float: inline-start;
     display: block;
 }
 
 .username{
-    width: 92px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 23px;
     color: #4d4d4d;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 10px;
-    margin-top: 35px;
-    margin-left: 575px;
-    float: inline;
+    margin-top: 1rem;
+    margin-left: 31.7rem;
     display: block;
 
 }
 
 .nome-mod{
-    width: 425px;
-    height: 55px;
+    width: 30vw;
+    height: 8vh;
     background-color:#CACACA;
     border-radius: 10px;
-    margin-top: 70px;
-    margin-left: -60px;
+    margin-top: 45px;
+    margin-left: -53px;
     float: inline-start;
 }
 
 .username-mod{
-    width: 425px;
-    height: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30vw;
+    height: 8vh;
     background-color:#CACACA;
     border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 557px;
-    float: inline;
-    display: block;
+    margin-top: 2px;
+    margin-left: 500px;
 }
 
 .bio{
     width: 92px;
     height: 23px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #4d4d4d;
     border-radius: 50px;
-    margin-top: 55px;
-    margin-left: 55px;
+    margin-top: 8px;
+    margin-left: 48px;
     float: inline;
     display: block;
 
@@ -171,63 +161,57 @@
 
 .bio-mod{
 
-    width: 942px;
-    height: 89px;
+    width: 64vw;
+    height: 5vw;
     background-color:#CACACA;
     border-radius: 10px;
     margin-top: 3px;
-    margin-left: 55px;
+    margin-left: 40px;
     float: inline;
     display: block;
 
 }
 
 .loc{
-    width: 54px;
-    height: 23px;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #4d4d4d;
-    margin-top: 55px;
-    margin-left: 55px;
+    margin-top: 10px;
+    margin-left: 45px;
     float: inline;
     display: block;
     
 }
 
 .loc-mod{
-    width: 425px;
-    height: 129px;
+    width: 30vw;
+    height: 15vh;
     background-color:#CACACA;
     border-radius: 10px;
     margin-top: 3px;
-    margin-left: 55px;
+    margin-left: 40px;
     float: inline;
     display: block;
 }
 
 .cntt{
-    width: 92px;
-    height: 23px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #4d4d4d;
     border-radius: 10px;
-    margin-top: -150px;
-    margin-left: 575px;
-    float: inline;
-    display: block;
+    margin-top: -125px;
+    margin-left: 31.7rem;
 }
 
 .cntt-mod{
 
-    width: 425px;
-    height: 86px;
+    width: 30vw;
+    height: 15vh;
     background-color:#CACACA;
     border-radius: 10px;
     margin-top: 3px;
-    margin-left: 556px;
+    margin-left: 500px;
     float: inline;
     display: block;;
 }
@@ -237,12 +221,10 @@
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    width: 206px;
-    height: 35px;
+    width: 15vw;
+    height: 5vh;
     background-color:#CACACA;
     border-radius: 10px;
     margin-left: 407px;
-    margin-top: 76px;
+    margin-top: 2rem;
 }
-
-
