@@ -91,3 +91,9 @@
     width: 90%;
     border-radius: 10px;
 }
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
