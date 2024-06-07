@@ -95,11 +95,16 @@
 .dados {
     background-color: rgba(250, 235, 215, 0.47);
     text-align: left;
-    padding-left: 10px;
     font-weight: 500;
     height: 1.8rem;
     width: 90%;
     border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
 }
 
 .conteudo_titulo {

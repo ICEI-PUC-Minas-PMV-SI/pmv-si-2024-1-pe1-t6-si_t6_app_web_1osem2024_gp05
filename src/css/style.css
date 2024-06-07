@@ -104,17 +104,6 @@
 }
 
 
-.btn_economic{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 1rem;
-    background-color: azure;
-    background: url("../img/icons/economic.png");
-    background-size: contain;
-    border: none;
-    background-repeat: no-repeat;
-}
-
 .btn_config{
     width: 4rem;
     height: 4rem;
