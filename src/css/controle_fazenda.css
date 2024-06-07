@@ -1,5 +1,3 @@
-
-
 .comp {
     background-color: rgb(240, 248, 255);
 }
@@ -7,6 +5,10 @@
 
 .controle_fazenda_1 {
     border-radius: 2rem;
+}
+
+.body {
+    height: 100%;
 }
 
 .controle_fazenda_1 h1{
@@ -27,7 +29,7 @@
 .conteudo{
     border: none;
     width: 25rem;
-    height: 19rem;
+    height: 18rem;
     margin: 1rem;
     border-radius: 1.5rem;
     background-color: rgba(250, 235, 215, 0.47);
