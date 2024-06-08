@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/controle_fazenda_equipamentos.css">
 
-    <script src="dados_equipamentos.js"></script>
+    <!-- <script src="JS/dados_equipamentos.js"></script> -->
+    <script src="JS/equipamentos.js" type="module"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -77,9 +78,15 @@
                             
                             <section class="dados_on">
                                 <div class="esquerda">
-                                    <div class="dados info"><p>Veículos:</p><p>200</p></div>
-                                    <div class="dados info"><p>Máquinas:</p><p>200</p></div>
-                                    <div class="dados info"><p>Ferramentas:</p><p>200</p></div>
+                                    <div class="dados info"><p>Veículos:</p>
+                                        <p id="tot_veiculos"></p>
+                                    </div>
+                                    <div class="dados info"><p>Máquinas:</p>
+                                        <p id="tot_maquinas"></p>
+                                    </div>
+                                    <div class="dados info"><p>Ferramentas:</p>
+                                        <p id="tot_ferramentas"></p>
+                                    </div>
                                     <div class="dados_grafico">
                                         <div class="bloco"></div>
                                         <div class="bloco"></div>
@@ -87,7 +94,8 @@
                                 </div>
 
                                 <div class="direita">
-                                    <div class="dados info"><p>Item 1</p><p>200</p></div>
+                                    <div class="dados info"><p>Valores dos Veículos</p>
+                                        <p id="valores_veiculos"></p></div>
                                     <div class="dados info"><p>Item 2</p><p>200</p></div>
                                     <div class="dados info"><p>Item 3</p><p>200</p></div>
                                     <div class="dados info"><p>Item 4</p><p>200</p></div>
@@ -100,7 +108,7 @@
                         </section>
 
                         <button class="conteudo conteudo_2">
-                            <h3>Balanço</h3>
+                            <h3>Equipamentos</h3>
                             <div class="icon"></div>
                         </button>
 

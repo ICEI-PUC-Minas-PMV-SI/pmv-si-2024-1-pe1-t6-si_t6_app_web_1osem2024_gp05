@@ -1,13 +1,19 @@
-var equipamentos = {
+export var equipamentos = {
     veiculos: [
         {
-            marca: 'fiat',
-            ano: '2020',
+            tipo: 'fiat',
             valor: '1000'
         },
         {
-            marca: 'volks',
-            ano: '2015',
+            tipo: 'volks',
+            valor: '2000'
+        },
+        {
+            tipo: 'bmw',
+            valor: '2000'
+        },
+        {
+            marca: 'ferrari',
             valor: '2000'
         }
     ],
@@ -25,19 +31,16 @@ var equipamentos = {
     ],
     ferramentas: [
         {
-            nome: 'enchada',
+            tipo: 'enchada',
             valor: '8000'
         },{
-            nome: 'serrote',
+            tipo: 'serrote',
             valor: '100'
         },{
-            nome: 'alicate',
+            tipo: 'alicate',
             valor: '50'
         }
     ],
 
 };
 
-
-console.log(equipamentos.veiculos[1].ano);
-console.log(equipamentos.ferramentas[2].valor);
