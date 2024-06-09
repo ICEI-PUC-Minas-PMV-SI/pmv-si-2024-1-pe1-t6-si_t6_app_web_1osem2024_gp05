@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/controle_fazenda_equipamentos.css">
 
-    <!-- <script src="JS/dados_equipamentos.js"></script> -->
-    <script src="JS/equipamentos.js" type="module"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +45,7 @@
                             <a href="controle_fazenda_1.html" class="btn_control">
                             </a>
 
-                            <a href="controle_fazenda_1.html"  class="btn_config">
+                            <a href="lancamentos1.html"  class="btn_config">
                             </a>
 
                         </div>
@@ -71,44 +69,58 @@
                                 <div class="periodo">
                                     Período:
                                     <div class="data">
-                                        01/03 - 31/03
+                                        01/06 - 30/06
                                     </div>
                                 </div>
                             </div>
                             
                             <section class="dados_on">
                                 <div class="esquerda">
-                                    <div class="dados info"><p>Veículos:</p>
+                                    <div class="dados info"><p>Quantidade de Veículos:</p>
                                         <p id="tot_veiculos"></p>
                                     </div>
-                                    <div class="dados info"><p>Máquinas:</p>
+                                    <div class="dados info"><p>Quantidade de Máquinas:</p>
                                         <p id="tot_maquinas"></p>
                                     </div>
-                                    <div class="dados info"><p>Ferramentas:</p>
+                                    <div class="dados info"><p>Quantidade de Ferramentas:</p>
                                         <p id="tot_ferramentas"></p>
                                     </div>
-                                    <div class="dados_grafico">
-                                        <div class="bloco"></div>
-                                        <div class="bloco"></div>
+                                    <div class="dados_grafico" id="bloco_dados">
+                                        
+                                        <select name="equip_select" id="seletor">
+                                            <option value="select">Selecione</option>
+                                            <option value="veiculos_select" id="veiculos_select">Veículos</option>
+                                            <option value="maquinas_select" id="maquinas_select">Maquinas</option>
+                                            <option value="ferramentas_select" id="ferramentas_select">Ferramentas</option>
+                                           
+                                        </select>
+
+                                        <span id="dados"></span>
+
                                     </div>
                                 </div>
 
                                 <div class="direita">
-                                    <div class="dados info"><p>Valores dos Veículos</p>
+                                    <div class="dados info"><p>Total dos Valores dos Veículos</p>
                                         <p id="valores_veiculos"></p></div>
-                                    <div class="dados info"><p>Item 2</p><p>200</p></div>
-                                    <div class="dados info"><p>Item 3</p><p>200</p></div>
-                                    <div class="dados info"><p>Item 4</p><p>200</p></div>
-                                    <div class="dados info"><p>Item 5</p><p>200</p></div>
-                                    <div class="dados info"><p>Item 6</p><p>200</p></div>
+                                    <div class="dados info"><p>Total dos Valores das Máquinas</p>
+                                        <p id="valores_maquinas"></p></div>
+                                    <div class="dados info"><p>Total dos Valores das Ferramentas</p>
+                                        <p id="valores_ferramentas"></p></div>
+                                    <div class="dados info"><p>Última manutenção</p>
+                                        <p id="ultima_manutencao"></p></div>
+                                    <div class="dados info"><p>Próxima manutenção</p>
+                                        <p id="proxima_manutencao"></p></div>
+                                    <div class="dados info"><p>Gasto total manutenções</p>
+                                        <p id="gasto_manutencao"></p></div>
                                 </div>
                             </section>
 
 
                         </section>
 
-                        <button class="conteudo conteudo_2">
-                            <h3>Equipamentos</h3>
+                        <button class="conteudo conteudo_2" onclick="location.href='controle_fazenda_balanco.html';">
+                            <h3>Balanço</h3>
                             <div class="icon"></div>
                         </button>
 
@@ -169,7 +181,7 @@
 
 
 
-
+    <script src="JS/equipamentos.js" type="module"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

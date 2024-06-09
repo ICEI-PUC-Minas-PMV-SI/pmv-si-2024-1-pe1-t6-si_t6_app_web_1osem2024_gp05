@@ -6,6 +6,10 @@
     border-radius: 2rem;
 }
 
+.top-bar {
+    margin-top: 2rem;
+}
+
 .lançamentos h1 {
     text-align: center;
     margin: 1rem;
@@ -34,7 +38,8 @@
 /*  Lançamentos  */
 
 .main-content {
-    gap: 40px;
+    margin-top: 5rem;
+    gap: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

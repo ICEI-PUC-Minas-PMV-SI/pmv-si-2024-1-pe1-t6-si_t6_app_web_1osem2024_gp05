@@ -10,11 +10,15 @@ export var equipamentos = {
         },
         {
             tipo: 'bmw',
-            valor: '2000'
+            valor: '3000'
         },
         {
-            marca: 'ferrari',
-            valor: '2000'
+            tipo: 'Ford',
+            valor: '3000'
+        },
+        {
+            tipo: 'Ferrari',
+            valor: '3000'
         }
     ],
     maquinas: [
@@ -31,7 +35,7 @@ export var equipamentos = {
     ],
     ferramentas: [
         {
-            tipo: 'enchada',
+            tipo: 'enxada',
             valor: '8000'
         },{
             tipo: 'serrote',
@@ -41,6 +45,21 @@ export var equipamentos = {
             valor: '50'
         }
     ],
+    manutencao: [
+        {
+            data: '05-04-2024',
+            valor: '400'
+        },
+        {
+            data: '05-05-2024',
+            valor: '300'
+        },
+        {
+            data: '05-06-2024',
+            valor: '500'
+        }
+    ]
+    
 
 };
 
