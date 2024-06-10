@@ -66,7 +66,7 @@ Os Wireframes foram definidos da seguinte forma:
 
    Aqui na tela clima, estará o informativo completo sobre o clima naquela região, no momento da vizualização, assim como previsão para os próximos dias, e o histórico das chuvas e temperaturas.
 
-   **DEVIDO A PRIORIDADE EM ENTREGAR AS OUTRAS TELAS DO PROJETO ESSA TELA FOI FEITA, PORÉM A FUNCIONALIDADE EFETIVA AINDA NÃO FOI COMPLETAMENTE IMPREMENTADA.**
+**DEVIDO A PRIORIDADE EM ENTREGAR AS OUTRAS TELAS DO PROJETO ESSA TELA FOI FEITA, PORÉM A FUNCIONALIDADE EFETIVA AINDA NÃO FOI COMPLETAMENTE IMPREMENTADA.**
 
 ![clima](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t6-si_t6_app_web_1osem2024_gp05/blob/main/docs/img/TELA%20CLIMA.png)
 
@@ -83,7 +83,7 @@ Os Wireframes foram definidos da seguinte forma:
 
   Essa tela, será um espécie de feed de notícias, com informações e notícias relacionadas com o interesse do usuário, que deve mostrar informações pertinentes e relevantes para o seu trabalho.
 
-  **DEVIDO A PRIORIDADE EM ENTREGAR AS OUTRAS TELAS DO PROJETO ESSA TELA FOI FEITA, PORÉM A FUNCIONALIDADE EFETIVA AINDA NÃO FOI COMPLETAMENTE IMPREMENTADA.**
+**DEVIDO A PRIORIDADE EM ENTREGAR AS OUTRAS TELAS DO PROJETO ESSA TELA FOI FEITA, PORÉM A FUNCIONALIDADE EFETIVA AINDA NÃO FOI COMPLETAMENTE IMPREMENTADA.**
 
   ![economia](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t6-si_t6_app_web_1osem2024_gp05/blob/main/docs/img/ECONOMIA.png)
 
