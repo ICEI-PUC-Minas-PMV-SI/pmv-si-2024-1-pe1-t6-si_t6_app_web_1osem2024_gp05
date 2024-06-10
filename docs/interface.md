@@ -41,6 +41,9 @@ O sistema será desenvolvido visando atender todos os requisitos funcionais, ond
 
 ## User Flow
 
+**DEVIDO A PRIORIDADE EM ENTREGAR AS PRINCIPAINS FUNCIONALIDADES DO PROJETO FOI DEFINIDIDO ALUMAS TELAS COMO PRIORIDADE, PARA FAZER A ENTREGA, E OUTRAS
+TELAS FICARAM EM SEGUNDO PLANO. AS MESMAS ESTÃO DESCRITAS ABAIXO**
+
 ![userflow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t6-si_t6_app_web_1osem2024_gp05/blob/main/docs/img/userflow.png)
 
 
