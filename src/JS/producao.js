@@ -2,84 +2,68 @@
 import { contabilização } from "./dados_producao.js";
 
 //importando e definindo os campos de html, para editar o valores
-var total_de_agropecuaria = document.getElementById('tot_agropecuaria');
-var total_de_pecuaria = document.getElementById('tot_pecuaria');
-var total_de_colheita = document.getElementById('tot_colheita');
-var total_de_abate = document.getElementById('tot_abate');
-var total_de_esquipamento = document.getElementById('tot_equipamento');
-var total_de_insumo = document.getElementById('tot_insumo');
+var total_de_receita = document.getElementById('tot_receita');
+var total_de_custo = document.getElementById('tot_custo');
+var total_de_lucro = document.getElementById('tot_lucro');
+var total_de_plantio = document.getElementById('tot_plantio');
+
+
+
+var val_receita = document.getElementById('valores_plantio');
+var val_custo = document.getElementById('valores_animal');
+var val_lucro = document.getElementById('valores_colheita');
+var valores_plantio = document.getElementById('valores_plantio');
+
 
 
 
 
 // editando os valores do HTML, com as informações do objt JSON
-total_de_agropecuaria.innerHTML = contabilização.Agropecuaria.length;
-total_de_pecuaria.innerHTML = contabilização.Pecuaria.length;
-total_de_colheita.innerHTML = contabilização.Colheita.length;
-total_de_abate.innerHTML = contabilização.Abate.length;
-total_de_esquipamento.innerHTML = contabilização.Equipamento.length;
-total_de_insumo.innerHTML = contabilização.Insumos.length;
+total_de_receita.innerHTML = contabilização.receita.length;
+total_de_custo.innerHTML = contabilização.custo.length;
+total_de_lucro.innerHTML = contabilização.lucro.length;
+total_de_plantio.innerHTML = contabilização.plantio.length;
 
 
 
-//soma da agropecuaria
-var soma_valores_agropecuaria = 0;
 
-for ( var i=0 ; i < contabilização.Agropecuaria.length ; i++){
-    let valor = parseInt(contabilização.Agropecuaria[i].valor);
-    soma_valores_agropecuaria += valor;
+//soma da receita
+var soma_valores_receita = 0;
+
+for ( var i=0 ; i < contabilização.receita.length ; i++){
+    let valor = parseInt(contabilização.receita[i].valor);
+    soma_valores_receita += valor;
     }
     
-total_de_agropecuaria.innerHTML = soma_valores_agropecuaria;
+val_receita.innerHTML = soma_valores_receita;
 
-//soma da pecuaria
-var soma_valores_pecuaria = 0;
+//soma da plantio
+var soma_valores_plantio = 0;
 
-for ( var i=0 ; i < contabilização.Pecuaria.length ; i++){
-    let valor = parseInt(contabilização.Pecuaria[i].valor);
-    total_de_pecuaria += valor;
+for ( var i=0 ; i < contabilização.plantio.length ; i++){
+    let valor = parseInt(contabilização.plantio[i].valor);
+    soma_valores_plantio += valor;
     }
     
-total_de_pecuaria.innerHTML = soma_valores_pecuaria;
+valores_plantio.innerHTML = soma_valores_plantio;
 
-//soma das colheitas
-var soma_valores_colheita = 0;
+//soma do custo
+var soma_valores_custo = 0;
 
-for ( var i=0 ; i < contabilização.Colheita.length ; i++){
-    let valor = parseInt(contabilização.Colheita[i].valor);
-    soma_valores_colheita += valor;
+for ( var i=0 ; i < contabilização.custo.length ; i++){
+    let valor = parseInt(contabilização.custo[i].valor);
+    soma_valores_custo += valor;
     }
     
-total_de_colheita.innerHTML = soma_valores_colheita;
+val_custo.innerHTML = soma_valores_custo;
 
-//soma dos abates
+//soma do lucro
+var soma_valores_custo = 0;
 
-var soma_valores_abates = 0;
-
-for ( var i=0 ; i < contabilização.Abate.length ; i++){
-    let valor = parseInt(contabilização.Abate[i].valor);
-    soma_valores_abates += valor;
+for ( var i=0 ; i < contabilização.custo.length ; i++){
+    let valor = parseInt(contabilização.custo[i].valor);
+    soma_valores_custo += valor;
     }
     
-total_de_abate.innerHTML = soma_valores_abates;
-
-//gasto das equipamentos
-var gasto_valores_equipamento = 0;
-
-for ( var i=0 ; i < contabilização.Equipamento.length ; i++){
-    let valor = parseInt(contabilização.Equipamento[i].valor);
-    gasto_valores_equipamento += valor;
-    }
-    
-total_de_esquipamento.innerHTML = soma_valores_equipamentos;
-
-//gasto dos insumos
-var gasto_valores_insumos = 0;
-
-for ( var i=0 ; i < contabilização.Insumosnsumos.length ; i++){
-    let valor = parseInt(contabilização.Insumos[i].valor);
-    gasto_valores_insumos += valor;
-    }
-    
-total_de_insumos.innerHTML = gasto_valores_insumos;
+val_lucro.innerHTML = soma_valores_custo;
 
