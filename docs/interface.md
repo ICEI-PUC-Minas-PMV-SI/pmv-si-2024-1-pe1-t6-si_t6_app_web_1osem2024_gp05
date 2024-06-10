@@ -13,6 +13,8 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
    - no centro, teremos o "FEED de notícias", onde será apresentado as atualizações dos outros usuários, em forma de postagens, que podem ser tanto somente com textos sobre algum assunto específico, ou fotos, links para notícias ou sites úteis.
    - A direita, ficará o menu para abertura da tela de "CLIMA", que, mesmo fechado apresentará as informações de condição climática e temperatura atual na região, e terá um botão para abertura dessa tela com maiores informações.
   
+    
+  
 3.  **tela CLIMA**:
    - Nessa tela, quando aberta, apresentará as funcionalidade referentes ao clima.
    - na parte superior, será apresentado a condição climática e temperatura atuais.
@@ -55,12 +57,16 @@ Os Wireframes foram definidos da seguinte forma:
    Nessa tela, teremos ao centro, de forma mais enfática, o feed de notícias, que será apresentado e atualizado por ordem cronológica, sendo os mais recentes ao topo.
    O menu principal a esquerda, com as opções de navegação e informações do usuário, e informações climática, a direita, com opção para expandir e ver mais detalhes sobre o clima. Será possível clicar sobre o nome dos usuários no feed, para verificar cada perfil, e informações desse usuário, tal como localização, tipo de negócio desenvolvido, e alguns resultados, que serão apresentados conforme escolha desse usuário.
 
+    **DEVIDO A PRIORIDADE EM ENTREGAR AS OUTRAS TELAS DO PROJETO ESSA TELA FOI FEITA, PORÉM A FUNCIONALIDADE EFETIVA AINDA NÃO FOI COMPLETAMENTE IMPREMENTADA.**
+
 ![feed](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t6-si_t6_app_web_1osem2024_gp05/blob/main/docs/img/feed.png)
 
 
 ### TELA CLIMA
 
    Aqui na tela clima, estará o informativo completo sobre o clima naquela região, no momento da vizualização, assim como previsão para os próximos dias, e o histórico das chuvas e temperaturas.
+
+   **DEVIDO A PRIORIDADE EM ENTREGAR AS OUTRAS TELAS DO PROJETO ESSA TELA FOI FEITA, PORÉM A FUNCIONALIDADE EFETIVA AINDA NÃO FOI COMPLETAMENTE IMPREMENTADA.**
 
 ![clima](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t6-si_t6_app_web_1osem2024_gp05/blob/main/docs/img/TELA%20CLIMA.png)
 
@@ -76,6 +82,8 @@ Os Wireframes foram definidos da seguinte forma:
 ### ECONOMIA
 
   Essa tela, será um espécie de feed de notícias, com informações e notícias relacionadas com o interesse do usuário, que deve mostrar informações pertinentes e relevantes para o seu trabalho.
+
+  **DEVIDO A PRIORIDADE EM ENTREGAR AS OUTRAS TELAS DO PROJETO ESSA TELA FOI FEITA, PORÉM A FUNCIONALIDADE EFETIVA AINDA NÃO FOI COMPLETAMENTE IMPREMENTADA.**
 
   ![economia](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t6-si_t6_app_web_1osem2024_gp05/blob/main/docs/img/ECONOMIA.png)
 
