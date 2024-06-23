@@ -35,6 +35,7 @@ btn_lancamento.addEventListener('click', function(){
 
 
   seletor_produto.addEventListener('change', function(){
+    resp_sucess.innerHTML = ``;
     produto_selecionado = seletor_produto.value;
     console.log(produto_selecionado)
     localStorage.setItem('produto_selecionado', produto_selecionado);
@@ -52,26 +53,30 @@ btn_lancamento.addEventListener('click', function(){
     if (origem_selecionado == 'compra') {
       
       switch(produto_selecionado) {
+
         case 'veiculos':
-          let lanc = {carro: String(nome_lancamento.value), valor: Number(valor_lancamento.value)}
-          equipamentos.veiculos.push(lanc);
+          let lanc_veic = {carro: String(nome_lancamento.value), valor: Number(valor_lancamento.value)}
+          equipamentos.veiculos.push(lanc_veic);
           localStorage.setItem('equipamentos', JSON.stringify(equipamentos));
           resp_sucess.innerHTML = `<h1>LANÇAMENTO REALIZADO COM SUCESSO</h1>`;
           break;
 
         case 'maquinas':
-          //localStorage.setItem(equipamentos.maquinas.push({carro: String(nome_lancamento.value), valor: Number(valor_lancamento.value)}))
-          console.log(veiculos);
+          let lanc_maq = {maquina: String(nome_lancamento.value), valor: Number(valor_lancamento.value)}
+          equipamentos.maquinas.push(lanc_maq);
+          localStorage.setItem('equipamentos', JSON.stringify(equipamentos));
+          resp_sucess.innerHTML = `<h1>LANÇAMENTO REALIZADO COM SUCESSO</h1>`;
           break;
 
         case 'ferramentas':
-          //localStorage.setItem(equipamentos.ferramentas.push({carro: String(nome_lancamento.value), valor: Number(valor_lancamento.value)}))
-          console.log(veiculos);
+          let lanc_ferr = {ferramenta: String(nome_lancamento.value), valor: Number(valor_lancamento.value)}
+          equipamentos.ferramentas.push(lanc_ferr);
+          localStorage.setItem('equipamentos', JSON.stringify(equipamentos));
+          resp_sucess.innerHTML = `<h1>LANÇAMENTO REALIZADO COM SUCESSO</h1>`;
           break;
       }
     }
   }
-
 
 
 })

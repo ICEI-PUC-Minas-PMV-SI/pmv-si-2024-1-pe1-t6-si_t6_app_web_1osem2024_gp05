@@ -31,8 +31,8 @@
                         <div class="profile">
                             <button class="foto_perfil">
                             </button>
-                            <span class="user_name">
-                                tião
+                            <span class="user_name" id="user_name_logado">
+                                
                             </span>
                             <span class="nome_fazenda">
                                 <p>FAZENDA ESMERALDA</p>
@@ -130,7 +130,15 @@
 
     </div>
 
+<script>
 
+    const user_name_logado = document.querySelector('#user_name_logado');
+    let log = localStorage.getItem('logado')
+
+    user_name_logado.innerHTML = log;
+
+
+</script>
 
 
 
