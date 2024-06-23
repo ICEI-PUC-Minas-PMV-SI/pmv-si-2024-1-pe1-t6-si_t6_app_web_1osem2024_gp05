@@ -2,10 +2,10 @@
 
 Neste projeto serão realizados dois tipos de testes:
 
- - O **Teste de Software**, que utiliza uma abordadem de caixa preta, e tem por objetivo verificar a conformidade do software com os requisitos funcionais e não funcionais do sistema.
- - O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por um usuário do público alvo. 
+ - O **Teste de Software**, que utiliza uma abordadem de caixa preta, e tem por objetivo verificar a conformidade do software com os requisitos funcionais e não funcionais do sistema. Esse tipo de teste tem como objetivo verificar as funcionalidades do site, sem verificação do código fonte. Onde são inseridos dados no sistema, e verificando se os dados de saída estão em conformidade com os dados de entrada.
+ - O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por um usuário do público alvo. Também é verificado a usabilidade do site, se todas as funções desempenham seu papel definido, e entregam os resultados propostos, assim como é verificado se a confiabilidade, estabilidade e entrega do site estão de acordo com o planejado 
 
-Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o documento [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/).
+
 
 A documentação dos testes é dividida nas seguintes seções:
 
@@ -25,21 +25,78 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Verificação do FEED principal.**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+**Procedimento**  | 1) Acesse pela página inicial do site (index.html) <br> 2)Verificar se o FEED está sendo alimentado com posts de outros usuários <br> 
+**Requisitos associados** | RF-002
+**Resultado esperado** | Apresentação dos post de outros usuários em formato de FEED de noticias.
+**Dados de entrada** | N/A
+**Resultado obtido** | As informações são exibidas corretamente na tela.
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Acesso a tela de controle da Fazenda**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+**Procedimento**  | 1) No menu princial, deve clicar no botão "controle da Fazenda" <br> 
+**Requisitos associados** | RF-003
+**Resultado esperado** | Navegação deve ir para a tela de controle da fazenda
+**Dados de entrada** | N/A
+**Resultado obtido** | Exibição na tela da página "Controle da Fazenda"
+
+**Caso de Teste** | **CT03 - Acesso a tela expandida de Balanço**
+ :--------------: | ------------
+**Procedimento**  | 1) No menu, deve clicar no botão "BALANÇO" <br> 
+**Requisitos associados** | RF-004 e RF-007
+**Resultado esperado** | Navegação deve ir para a tela de balanço, e exibir todos os dados referentes a essa tela
+**Dados de entrada** | N/A
+**Resultado obtido** | Exibição na tela da página expandida "Balanço"
+
+**Caso de Teste** | **CT04 - Acesso a tela expandida de Equipamentos**
+ :--------------: | ------------
+**Procedimento**  | 1) No menu, deve clicar no botão "ESQUIPAMENTOS" <br> 
+**Requisitos associados** | RF-004 e RF-007
+**Resultado esperado** | Navegação deve ir para a tela de equipamentos, e exibir todos os dados referentes a essa tela
+**Dados de entrada** | N/A
+**Resultado obtido** | Exibição na tela da página expandida "Equipamentos"
+
+**Caso de Teste** | **CT05 - Acesso a tela expandida de Funcionários**
+ :--------------: | ------------
+**Procedimento**  | 1) No menu, deve clicar no botão "FUNCIONÁRIOS" <br> 
+**Requisitos associados** | RF-004 e RF-007
+**Resultado esperado** | Navegação deve ir para a tela de funcionários, e exibir todos os dados referentes a essa tela
+**Dados de entrada** | N/A
+**Resultado obtido** | Exibição na tela da página expandida "Funcionários"
+
+**Caso de Teste** | **CT06 - Acesso a tela expandida de Produção**
+ :--------------: | ------------
+**Procedimento**  | 1) No menu, deve clicar no botão "PRODUÇÃO" <br> 
+**Requisitos associados** | RF-004 e RF-007
+**Resultado esperado** | Navegação deve ir para a tela de produção, e exibir todos os dados referentes a essa tela
+**Dados de entrada** | N/A
+**Resultado obtido** | Exibição na tela da página expandida "produção"
+
+**Caso de Teste** | **CT07 - Acesso a tela Lançamentos**
+ :--------------: | ------------
+**Procedimento**  | 1) No menu principal a esquerda, deve clicar no botão "LANÇAMENTOS" <br> 
+**Requisitos associados** | RF-003
+**Resultado esperado** | Navegação deve ir para a tela de Lançamentos, e exibir todos os dados referentes a essa tela
+**Dados de entrada** | N/A
+**Resultado obtido** | Exibição na tela da página expandida "Lançamentos"
+
+**Caso de Teste** | **CT08 - Realização de Lançamentos**
+ :--------------: | ------------
+**Procedimento**  | 1) Na tela de lançamentos, deve preencher o formulário, e fazer clicar no botão para inserir os dados no sistema. <br> 
+**Requisitos associados** | RF-003 e RF-004
+**Resultado esperado** | Mensagem "lançamento realizado com sucesso" o que indica que o lançamento foi inserido no sistema
+**Dados de entrada** | Informações do formulário, como tipo do lançamento, tipo de movimentação, valor, tipo, etc.
+**Resultado obtido** | Exibição da mensagem, e dados inseridos no sistema conforme preenchimento do formulário. O que pode ser verificado nas telas de controle da fazenda.
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
 
 ## Registro dos Testes de Software
 
