@@ -46,7 +46,7 @@
                             <a href="controle_fazenda_1.html" class="btn_control">
                             </a>
 
-                            <a href="lancamentos_1.html"  class="btn_config">
+                            <a href="lancamentos_1.html" class="btn_config">
                             </a>
 
                         </div>
@@ -69,23 +69,39 @@
                                 <div class="dropdown">
                                     <select name="equip_select" id="seletor_lancamento">
                                         <option value="select">Selecione</option>
-                                        <option value="balanco_select" id="balanco_select">Balanço</option>
-                                        <option value="equipamentos_select" id="equipamentos_select">Equipamentos</option>
-                                        <option value="funcionarios_select" id="funcionarios_select">Funcionários</option>
-                                        <option value="producao_select" id="producao_select">Produção</option>
+                                        <option value="balanco" id="balanco_select">Balanço</option>
+                                        <option value="equipamentos" id="equipamentos_select">Equipamentos
+                                        </option>
+                                        <option value="funcionarios" id="funcionarios_select">Funcionários
+                                        </option>
+                                        <option value="producao" id="producao_select">Produção</option>
                                     </select>
                                 </div>
                             </div>
 
 
                             <div>
-                                <h2>Tipo de movimento </h2>
+                                <h2>Produto Lançado</h2>
                                 <div class="dropdown">
-                                    <select name="equip_select" id="seletor_movimento">
+                                    <select name="equip_select" id="seletor_produto">
                                         <option value="select">Selecione</option>
-                                        <option value="compra_select" id="compra_select">Compra</option>
-                                        <option value="Venda_select" id="venda_select">Venda</option>
-                                        <option value="servico_select" id="servico_select">Serviços</option>
+                                        <option value="veiculos" id="balanco_select">Veículos</option>
+                                        <option value="maquinas" id="equipamentos_select">Máquinas</option>
+                                        <option value="ferramentas" id="funcionarios_select">Ferramentas
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+
+                            <div>
+                                <h2>Origem </h2>
+                                <div class="dropdown">
+                                    <select name="equip_select" id="seletor_origem">
+                                        <option value="select">Selecione</option>
+                                        <option value="compra" id="compra_select">Compra</option>
+                                        <option value="Venda" id="venda_select">Venda</option>
                                     </select>
                                 </div>
                             </div>
@@ -97,8 +113,8 @@
                                 <input type="text" placeholder="Nome do Produto" id="nome_lancamento"><br>
                                 <input type="number" placeholder="Valor" id="valor_lancamento">
                             </div>
-                         
-                        
+
+
 
                             <div>
                                 <button class="btn_lan" id="btn_lancamento">SALVAR LANÇAMENTO</button>
@@ -106,8 +122,8 @@
 
                         </div>
                     </div>
-                <div id="teste_0">
-                </div>
+                    <div id="resp_sucess">
+                    </div>
 
                 </div>
 
@@ -154,7 +170,7 @@
 
 
 
-    <script src="JS/lancamentos.js" type="module"></script>
+    <script src="JS/lancamentos.js"></script>
 
 
 

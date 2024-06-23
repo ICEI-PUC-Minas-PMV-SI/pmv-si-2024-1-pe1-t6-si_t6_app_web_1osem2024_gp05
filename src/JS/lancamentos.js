@@ -1,50 +1,80 @@
-import { equipamentos } from "./dados_equipamentos.js";
+
+const seletor_lancamento = document.querySelector('#seletor_lancamento');
+const seletor_produto = document.querySelector('#seletor_produto');
+const seletor_origem = document.querySelector('#seletor_origem');
+const btn_lancamento = document.querySelector('#btn_lancamento');
+const nome_lancamento = document.querySelector('#nome_lancamento');
+const valor_lancamento = document.querySelector('#valor_lancamento');
+const resp_sucess = document.querySelector('#resp_sucess');
+
+var tipo_selecionado;
+var produto_selecionado;
+var origem_selecionado;
 
 
+//objetos
+
+var str_equipamentos = {veiculos: [], maquinas: [], ferramentas: []};
+var equipamentos;
+
+if (localStorage.getItem('equipamentos') == undefined){
+  localStorage.setItem('equipamentos', JSON.stringify(str_equipamentos));
+}
+
+equipamentos = JSON.parse(localStorage.getItem('equipamentos'));
+console.log(equipamentos)
+
+btn_lancamento.addEventListener('click', function(){
+
+  seletor_lancamento.addEventListener('change', function(){
+    resp_sucess.innerHTML = ``;
+    tipo_selecionado = seletor_lancamento.value;
+    console.log(tipo_selecionado)
+    localStorage.setItem('tipo_selecionado', tipo_selecionado);
+  })
 
 
-var seletor_lancamento = document.getElementById('seletor_lancamento');
-var seletor_movimento = document.getElementById('seletor_movimento');
-var btn_lancamento = document.getElementById('btn_lancamento');
-var nome_lancamento = document.getElementById('nome_lancamento');
-var valor_lancamento = document.getElementById('valor_lancamento');
-
-var id = document.getElementById('teste_0');
-
-seletor_lancamento.addEventListener('change', function(){
-    console.log(seletor_lancamento.value)
-
-   if (seletor_lancamento.value == "equipamentos_select") {
+  seletor_produto.addEventListener('change', function(){
+    produto_selecionado = seletor_produto.value;
+    console.log(produto_selecionado)
+    localStorage.setItem('produto_selecionado', produto_selecionado);
+  })
 
 
-    seletor_movimento.addEventListener('change', function(){
-        console.log(seletor_movimento.value)
-
-        if (seletor_movimento.value == "compra_select"){
-
-            btn_lancamento.addEventListener('click', function(){
-                var tipo0 = nome_lancamento.value;
-                var valor0 = valor_lancamento.value;
+  seletor_origem.addEventListener('change', function(){
+    origem_selecionado = seletor_origem.value;
+    console.log(origem_selecionado)
+    localStorage.setItem('origem_selecionado', origem_selecionado);
+  })
 
 
-                equipamentos.veiculos.push('TESTE');
+  if(tipo_selecionado == 'equipamentos') {
+    if (origem_selecionado == 'compra') {
+      
+      switch(produto_selecionado) {
+        case 'veiculos':
+          let lanc = {carro: String(nome_lancamento.value), valor: Number(valor_lancamento.value)}
+          equipamentos.veiculos.push(lanc);
+          localStorage.setItem('equipamentos', JSON.stringify(equipamentos));
+          resp_sucess.innerHTML = `<h1>LANÇAMENTO REALIZADO COM SUCESSO</h1>`;
+          break;
 
+        case 'maquinas':
+          //localStorage.setItem(equipamentos.maquinas.push({carro: String(nome_lancamento.value), valor: Number(valor_lancamento.value)}))
+          console.log(veiculos);
+          break;
 
-            })
-
-
-
-
-            console.log("VVVV");
-        }
-
-
-
-
-
-
-        })
+        case 'ferramentas':
+          //localStorage.setItem(equipamentos.ferramentas.push({carro: String(nome_lancamento.value), valor: Number(valor_lancamento.value)}))
+          console.log(veiculos);
+          break;
+      }
     }
-    
+  }
+
+
+
 })
-    
+
+
+
