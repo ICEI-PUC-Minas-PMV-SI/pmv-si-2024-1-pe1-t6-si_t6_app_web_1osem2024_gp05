@@ -3,7 +3,11 @@ const senha = document.querySelector('#input_senha');
 const entrar = document.querySelector('#entrar');
 const falha = document.querySelector('#incorreto');
 
+var template_user = {user: []};
 
+if (localStorage.getItem('usuarios') == undefined){
+  localStorage.setItem('usuarios', JSON.stringify(template_user));
+} 
 
 
 entrar.addEventListener('click', function (){
@@ -20,7 +24,7 @@ entrar.addEventListener('click', function (){
     if (submit_usuario == usuarios.user[i].login && submit_senha == usuarios.user[i].senha){
       validation = true;
       console.log('logou', validation)
-      window.location.href='index.html'
+      window.location.href='home.html'
 
       JSON.stringify(localStorage.setItem('logado', submit_usuario));
     }
